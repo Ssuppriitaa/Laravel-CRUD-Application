@@ -1,0 +1,56 @@
+.desktop {
+    background-color: #fff9d2;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table */
+.group {
+    background: #fefd99;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #03aed2;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #9ed3dc;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background: orange;
+    color: white;
+}
+
+.btn-delete {
+    background: red;
+    color: white;
+}
